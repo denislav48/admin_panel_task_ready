@@ -1,0 +1,11 @@
+Instructions for running the app:
+
+1. In admin_panel folder run : npm install
+2. Install json-server globally : npm install -g json-server
+3. Start json-server with authentication: json-server mock_data.json -m ./node_modules/json-server-auth --port 3001
+4. From admin_panel start the server form file uploads. Run the command : nodemon serve.js
+5. Finally run: npm start
+6. To login use:
+
+		email: deni@gmail.com
+		pass:  123456
